@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/1533317/TailSpin%20SpaceGame%20Web/_apis/build/status/Verreault95.mslearn-tailspin-spacegame-web?branchName=main)](https://dev.azure.com/1533317/TailSpin%20SpaceGame%20Web/_build/latest?definitionId=1&branchName=main)
 
 # Contributing
 

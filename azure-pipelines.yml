@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+>>>>>>> 436e350b62090bb69bed6aef2d584349f805e6c6
 trigger:
 - '*'
 
@@ -46,6 +54,7 @@ steps:
     projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
+<<<<<<< HEAD
   displayName: 'Run unit tests - $(buildConfiguration)'
   inputs:
     command: 'test'
@@ -54,6 +63,8 @@ steps:
     projects: '**/*.Tests.csproj' 
 
 - task: DotNetCoreCLI@2
+=======
+>>>>>>> 436e350b62090bb69bed6aef2d584349f805e6c6
   displayName: 'Publish the project - $(buildConfiguration)'
   inputs:
     command: 'publish'
